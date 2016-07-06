@@ -16,6 +16,6 @@ public class CalculadoraDeSalario {
 				return funcionario.getSalario() * 0.8;
 			return funcionario.getSalario() * 0.9;
 		}
-		return 425.0;
+		return funcionario.getSalario() * 0.85;
 	}
 }
