@@ -37,5 +37,15 @@ public class CalculadoraDeSalariosTest {
 		double salario = calculadora.calculaSalario(desenvolvedor);
 
 		Assert.assertEquals(500.0 * 0.85, salario, 0.00001);
-	}	
+	}
+	
+	@Test
+	public void deveCalcularSalarioParaDBAsComSalarioAcimaDoLimite() {
+		CalculadoraDeSalario calculadora = new CalculadoraDeSalario();
+		Funcionario desenvolvedor = new Funcionario("Mauricio", 4500.0, Cargo.DBA);
+
+		double salario = calculadora.calculaSalario(desenvolvedor);
+
+		Assert.assertEquals(4500.0 * 0.75, salario, 0.00001);
+	}
 }
