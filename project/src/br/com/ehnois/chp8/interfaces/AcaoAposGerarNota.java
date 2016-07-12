@@ -1,4 +1,6 @@
-package br.com.ehnois.chp8;
+package br.com.ehnois.chp8.interfaces;
+
+import br.com.ehnois.chp8.NotaFiscal;
 
 /**
  * @author Rafael_Cassemiro_Fre

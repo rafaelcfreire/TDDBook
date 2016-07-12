@@ -1,11 +1,11 @@
 package br.com.ehnois.chp2.test;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import br.com.ehnois.chp2.CarrinhoDeCompras;
 import br.com.ehnois.chp2.MaiorEMenor;
 import br.com.ehnois.chp2.Produto;
-import org.junit.Assert;
 
 public class TestaMaiorEMenor {
 
