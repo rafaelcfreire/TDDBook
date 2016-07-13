@@ -13,15 +13,9 @@ public class ProcessadorDeBoletos {
 	 * @param fatura
 	 */
 	public void processa(List<Boleto> boletos, Fatura fatura) {
-		double valorTotal = 0;
 
 		for (Boleto boleto : boletos) {
-			fatura.getPagamentos().add(new Pagamento(boleto.getValor(), MeioDePagamento.BOLETO));
-			valorTotal += boleto.getValor();
-		}
-
-		if (valorTotal >= fatura.getValor()) {
-			fatura.setPago(true);
+			fatura.adicionaPagamento(new Pagamento(boleto.getValor(), MeioDePagamento.BOLETO));
 		}
 	}
 	
