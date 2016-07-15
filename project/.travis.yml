@@ -1,7 +1,0 @@
-language: java
-
-before_script: cd project
-install: mvn install -DskipTests=true
-script: mvn test
-jdk:
-  - oraclejdk8
