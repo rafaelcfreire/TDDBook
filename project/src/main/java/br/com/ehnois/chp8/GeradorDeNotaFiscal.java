@@ -4,7 +4,6 @@ import java.util.List;
 
 import br.com.ehnois.chp8.interfaces.AcaoAposGerarNota;
 import br.com.ehnois.chp8.interfaces.Relogio;
-import br.com.ehnois.chp8.interfaces.RelogioDoSistema;
 import br.com.ehnois.chp8.interfaces.Tabela;
 
 /**

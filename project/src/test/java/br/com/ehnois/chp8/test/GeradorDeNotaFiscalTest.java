@@ -1,6 +1,5 @@
 package br.com.ehnois.chp8.test;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 

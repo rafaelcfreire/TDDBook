@@ -7,8 +7,15 @@ import br.com.ehnois.chp2.CarrinhoDeCompras;
 import br.com.ehnois.chp2.MaiorEMenor;
 import br.com.ehnois.chp2.Produto;
 
+/**
+ * @author Rafael_Cassemiro_Fre
+ *
+ */
 public class TestaMaiorEMenor {
 
+	/**
+	 * 
+	 */
 	@Test
 	public void ordemDecrescente() {
 		CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
@@ -23,6 +30,9 @@ public class TestaMaiorEMenor {
 		Assert.assertEquals("Geladeira", algoritmo.getMaior().getNome());
 	}
 	
+	/**
+	 * 
+	 */
 	@Test
 	public void testaApenasUmProduto() {
 		CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
